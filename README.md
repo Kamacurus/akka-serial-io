@@ -1,11 +1,13 @@
 # akka-serial-io
 
-Akka IO library in scala for serial ports based on jSSC.
+Akka IO library in scala for serial ports based on jSSC. Modified to use a 'built-in' copy of jssc from kamacurus/java-simple-serial-connector which 
+includes support for arm64, missing from release version (2.8.0).
+
 
 ## Requirements
 
 - Java 1.8
-- Akka 2.4.1
+- Akka 2.5.4
 
 ## Usage
 
