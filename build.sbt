@@ -19,12 +19,10 @@ resolvers += "Sonatype OSS Snapshots" at
 
 lazy val akkaVersion = "2.5.4"
 lazy val scalaTestVersion = "3.0.1"
-lazy val jsscVersion = "2.8.0"
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % akkaVersion,
   "com.typesafe.akka" %% "akka-testkit" % akkaVersion % "test",
-  "org.scream3r" % "jssc" % jsscVersion % "provided",
   "org.scalatest" % "scalatest_2.12" % scalaTestVersion % "test"
 )
 
