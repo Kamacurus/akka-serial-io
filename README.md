@@ -12,6 +12,7 @@ includes support for arm64, missing from release version (2.8.0).
 ## Usage
 
 This is an un-released package:
+
     //libraryDependencies += "com.github.akileev" %% "akka-serial-io" % "1.0.2"
     val serialLib = ProjectRef(uri("git://github.com/Kamacurus/akka-serial-io.git"), "akka-serial-io")
 
